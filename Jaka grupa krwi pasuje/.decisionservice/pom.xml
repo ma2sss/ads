@@ -13,7 +13,12 @@
     <dependencies>
         <dependency>
             <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-            <artifactId>dawca</artifactId>
+            <artifactId>ADS_Grupa_Krwi</artifactId>
+            <version>LATEST-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
+            <artifactId>model_Zdaniowy</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -79,6 +84,13 @@
 
 
 
+
+
+
+
+
+
+
 <build>
         <resources>
             <resource>
@@ -105,7 +117,16 @@
                             <artifactItems>
                                 <artifactItem>
                                     <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-                                    <artifactId>dawca</artifactId>
+                                    <artifactId>ADS_Grupa_Krwi</artifactId>
+                                    <version>LATEST-SNAPSHOT</version>
+                                    <type>jar</type>
+                                    <overWrite>false</overWrite>
+                                    <includes>**/*.class</includes>
+                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
+                                </artifactItem>
+                                <artifactItem>
+                                    <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
+                                    <artifactId>model_Zdaniowy</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>

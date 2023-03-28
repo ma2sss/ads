@@ -8,7 +8,7 @@
     </parent>
 
     <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-    <artifactId>dawca</artifactId>
+    <artifactId>ADS_Grupa_Krwi</artifactId>
     <version>LATEST-SNAPSHOT</version>
 
     <build>
@@ -26,7 +26,7 @@
                 <configuration>
                     <deployments>
                         <deployment>
-                            <name>Dawca</name>
+                            <name>ADS_grupa_krwi</name>
                         </deployment>
                     </deployments>
                 <packageName>jbmatu619.test_ads.jaka_grupa_krwi_pasuje.dawca</packageName>

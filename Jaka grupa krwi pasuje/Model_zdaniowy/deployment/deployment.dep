@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="jbmatu619.test_ads.jaka_grupa_krwi_pasuje:dawca" ruleAppVersion="LATEST-SNAPSHOT" packageName="jbmatu619.test_ads.jaka_grupa_krwi_pasuje.dawca" managingXom="true">
-  <name>Dawca</name>
-  <uuid>ebc38e91-4f39-46c7-8668-20c625eda861</uuid>
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="jbmatu619.test_ads.jaka_grupa_krwi_pasuje:model_Zdaniowy" ruleAppVersion="LATEST-SNAPSHOT" packageName="jbmatu619.test_ads.jaka_grupa_krwi_pasuje.model_zdaniowy" managingXom="true">
+  <name>Model_zdaniowy</name>
+  <uuid>4fb77530-ab5b-49dc-a702-537d353989e8</uuid>
   <locales>en_US</locales>
   <operations operationName="operation">
-    <operation href="operation.dop#025230cc-eef1-448e-a7ad-ed2e4ffe2ccc"/>
+    <operation href="operation.dop#2f5a5bec-af46-46e4-ac2f-fa56d2e95e3b"/>
     <properties key="ruleset.version">
       <value><![CDATA[1.0]]></value>
     </properties>
