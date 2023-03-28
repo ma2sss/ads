@@ -13,19 +13,19 @@
             <ConditionDefinitions>
                 <ConditionDefinition Id="C0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[Biorca is <a string>]]></Text>
+                        <Text><![CDATA['Biorca' is <a string>]]></Text>
                     </ExpressionDefinition>
                 </ConditionDefinition>
                 <ConditionDefinition Id="C1">
                     <ExpressionDefinition>
-                        <Text><![CDATA[Dawca is <a string>]]></Text>
+                        <Text><![CDATA['Dawca' is <a string>]]></Text>
                     </ExpressionDefinition>
                 </ConditionDefinition>
             </ConditionDefinitions>
             <ActionDefinitions>
                 <ActionDefinition Id="A0">
                     <ExpressionDefinition>
-                        <Text><![CDATA[set decision to <a string>]]></Text>
+                        <Text><![CDATA[set 'decision' to <a string>]]></Text>
                     </ExpressionDefinition>
                 </ActionDefinition>
             </ActionDefinitions>
@@ -44,7 +44,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -63,7 +63,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -82,7 +82,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -101,7 +101,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -120,7 +120,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -139,7 +139,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -158,7 +158,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -177,7 +177,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -196,7 +196,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -215,7 +215,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -234,7 +234,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -253,7 +253,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -272,7 +272,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -291,7 +291,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -310,7 +310,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -329,7 +329,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -348,7 +348,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -360,7 +360,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -372,7 +372,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -384,7 +384,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -396,7 +396,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -408,7 +408,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok "]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -420,7 +420,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -432,7 +432,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok "]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -451,7 +451,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -470,7 +470,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -489,7 +489,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -508,7 +508,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -527,7 +527,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -546,7 +546,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -565,7 +565,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -584,7 +584,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -603,7 +603,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -622,7 +622,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -641,7 +641,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -660,7 +660,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -679,7 +679,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -698,7 +698,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -717,7 +717,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -736,7 +736,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -755,7 +755,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -774,7 +774,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -793,7 +793,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -812,7 +812,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -831,7 +831,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -850,7 +850,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -869,7 +869,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -888,7 +888,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -907,7 +907,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -926,7 +926,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -945,7 +945,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -964,7 +964,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -983,7 +983,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1002,7 +1002,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1021,7 +1021,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1040,7 +1040,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1059,7 +1059,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1078,7 +1078,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1097,7 +1097,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1116,7 +1116,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1135,7 +1135,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1154,7 +1154,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["OK"]]></Param>
+                                        <Param><![CDATA["ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1173,7 +1173,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>
@@ -1192,7 +1192,7 @@
                             <ActionSet>
                                 <Action DefId="A0">
                                     <Expression>
-                                        <Param><![CDATA["NO"]]></Param>
+                                        <Param><![CDATA["not ok"]]></Param>
                                     </Expression>
                                 </Action>
                             </ActionSet>

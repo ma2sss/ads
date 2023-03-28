@@ -15,16 +15,16 @@
         </extensionElements>
         <variable id="node_0_ii" name="Biorca" typeRef="java.lang.String"/>
     </inputData>
-    <decision id="node_1" name="Decision">
+    <decision id="node_1" name="GrupaKrwi">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.String" collection="false" name="Biorca"/>
                 <input bomType="java.lang.String" collection="false" name="Dawca"/>
-                <output bomType="java.lang.String" collection="false" name="Decision"/>
+                <output bomType="java.lang.String" collection="false" name="GrupaKrwi"/>
                 <rule defaultRule="false" href="node_1/CzyOk.dmt" kind="DecisionTable" name="CzyOk"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="Decision" typeRef="java.lang.String"/>
+        <variable id="node_1_ii" name="GrupaKrwi" typeRef="java.lang.String"/>
         <informationRequirement>
             <requiredInput href="#node_0"/>
         </informationRequirement>
@@ -40,6 +40,19 @@
         </extensionElements>
         <variable id="node_2_ii" name="Dawca" typeRef="java.lang.String"/>
     </inputData>
+    <decision id="node_3" name="zdanie">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.String" collection="false" name="GrupaKrwi"/>
+                <output bomType="java.lang.String" collection="false" name="zdanie"/>
+                <rule defaultRule="false" href="node_3/Gotowy%20tekst.drl" kind="BusinessRule" name="Gotowy tekst"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_3_ii" name="zdanie" typeRef="java.lang.String"/>
+        <informationRequirement>
+            <requiredInput href="#node_1"/>
+        </informationRequirement>
+    </decision>
 </definitions>
 </definition>
 </com.ibm.rules.studio.model.decisionmodel:DecisionModel>
