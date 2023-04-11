@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.dt:DecisionTable xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.dt="http://ilog.rules.studio/model/dt.ecore">
+  <name>Cennik2023</name>
+  <uuid>2cde2e73-e923-4798-83f4-3e2c65e00f71</uuid>
+  <locale>en_US</locale>
+  <definition><DT xmlns="http://schemas.ilog.com/Rules/7.0/DecisionTable" Version="7.0">
+    <Body>
+        <Properties>
+            <Property Name="UI.MediaType"><![CDATA[Web]]></Property>
+            <Property Name="Lock.AddAction" Type="xs:boolean"><![CDATA[true]]></Property>
+            <Property Name="Lock.EditActionStatus" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.ApplyLocking" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.EditPartitions" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.EditPartitionValues" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="UI.RenderBoolean" Type="xs:boolean"><![CDATA[true]]></Property>
+            <Property Name="Lock.EditActionValues" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.RemoveAction" Type="xs:boolean"><![CDATA[true]]></Property>
+            <Property Name="Lock.EditActionExpr" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.AddCond" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.EditCondExpr" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.LockPreconditions" Type="xs:boolean"><![CDATA[false]]></Property>
+            <Property Name="Lock.RemoveCond" Type="xs:boolean"><![CDATA[false]]></Property>
+        </Properties>
+        <Structure>
+            <ConditionDefinitions>
+                <ConditionDefinition Id="C0">
+                    <ExpressionDefinition>
+                        <Text><![CDATA[grupa_taryfowa is <a string>]]></Text>
+                    </ExpressionDefinition>
+                </ConditionDefinition>
+                <ConditionDefinition Id="C1">
+                    <ExpressionDefinition>
+                        <Text><![CDATA[data is <a date>]]></Text>
+                    </ExpressionDefinition>
+                </ConditionDefinition>
+            </ConditionDefinitions>
+            <ActionDefinitions>
+                <ActionDefinition Id="A0">
+                    <ExpressionDefinition>
+                        <Text><![CDATA[set decision to <a string>]]></Text>
+                    </ExpressionDefinition>
+                </ActionDefinition>
+                <ActionDefinition Id="A2">
+                    <ExpressionDefinition>
+                        <Text><![CDATA[set decision to <a string>]]></Text>
+                    </ExpressionDefinition>
+                </ActionDefinition>
+            </ActionDefinitions>
+        </Structure>
+        <Contents>
+            <Partition DefId="C0">
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G11"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[01/01/2023]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["0,4131 (0,5081)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param/>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G12"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2023]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["0,4814(0,5921)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param><![CDATA["0,3122 (0,3840)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G12w"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2023]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["0,5038(0,6197)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param><![CDATA["0,3278(0,4032)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G12r"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2023]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["0,5545 (0,6820)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param><![CDATA["0,2509 (0,3086)** "]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G11"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2022]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["1,1318 (1,3983)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression/>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G12"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2022]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["1,3189 (1,6284)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param><![CDATA["0,8549 (1,0577)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G12w"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2022]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["1,3798 (1,7033)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param><![CDATA["0,8977 (1,1103)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression>
+                        <Param><![CDATA["G12r"]]></Param>
+                    </Expression>
+                    <Partition DefId="C1">
+                        <Condition>
+                            <Expression>
+                                <Param><![CDATA[1/1/2022]]></Param>
+                            </Expression>
+                            <ActionSet>
+                                <Action DefId="A0">
+                                    <Expression>
+                                        <Param><![CDATA["1,5191 (1,8746)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                                <Action DefId="A2">
+                                    <Expression>
+                                        <Param><![CDATA["0,6874 (0,8517)*** "]]></Param>
+                                    </Expression>
+                                </Action>
+                            </ActionSet>
+                        </Condition>
+                    </Partition>
+                </Condition>
+                <Condition>
+                    <Expression/>
+                    <ActionSet/>
+                </Condition>
+                <Condition>
+                    <Expression/>
+                    <ActionSet/>
+                </Condition>
+            </Partition>
+        </Contents>
+    </Body>
+    <Resources DefaultLocale="en_US">
+        <ResourceSet Locale="en_US">
+            <Data Name="Definitions(C0)#HeaderText"><![CDATA[grupa_taryfowa]]></Data>
+            <Data Name="Definitions(C1)#HeaderText"><![CDATA[data]]></Data>
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Całodobowa]]></Data>
+            <Data Name="Definitions(A2)#HeaderText"><![CDATA[Dzienna]]></Data>
+        </ResourceSet>
+    </Resources>
+</DT>
+</definition>
+</ilog.rules.studio.model.dt:DecisionTable>

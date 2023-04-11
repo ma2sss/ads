@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="tabelaOpłat">
+  <name>tabelaOpłat</name>
+  <uuid>2d28fec7-4e96-4b0d-8510-9bef35c9054c</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#39d3cecf-46a1-45ec-8da7-0b1f9ee0234f"/>
+  <targetRuleProject href="../../tabelaOp%C5%82at#921cbc80-8ebd-4b2d-b87d-a974ce7c67e7"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
