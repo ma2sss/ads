@@ -2,9 +2,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>jbmatu619.test_ads.enop_taryfa</groupId>
-    <artifactId>ENOPTaryfa</artifactId>
+    <artifactId>energetyka_Taryfa</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>ENOP taryfa</name>
+    <name>Energetyka_taryfa</name>
 
     <packaging>pom</packaging>
 
@@ -63,8 +63,8 @@
         </dependencies>
     </dependencyManagement>
     <modules>
-        <module>.decisionservice</module>
         <module>tabelaOpłat</module>
+        <module>.decisionservice</module>
     </modules>
 
     <build>
