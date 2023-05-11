@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>reguła_biznesowe_01</name>
+  <uuid>79c6fd3e-0b24-4c1f-9c0b-f6b01fcb51be</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	Imie is not empty 
+then
+	set decision to "Witaj " +  Imie + " piękny kawalerze :-)" ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

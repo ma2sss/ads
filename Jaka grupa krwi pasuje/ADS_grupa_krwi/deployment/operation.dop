@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="ADS_grupa_krwi">
+  <name>ADS_grupa_krwi</name>
+  <uuid>025230cc-eef1-448e-a7ad-ed2e4ffe2ccc</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#dc3e68a3-1d68-48de-9c86-d1333dba3856"/>
+  <targetRuleProject href="../../ADS_grupa_krwi#a951e4a4-b2c9-40c6-baf5-35279f69852a"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["Dawca"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
+</com.ibm.rules.studio.model.decisionservice:Operation>
