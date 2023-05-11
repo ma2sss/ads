@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>default-value-setting</name>
+  <uuid>44295b97-593b-40b1-b741-9c06e28701fd</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set data to 2023 ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

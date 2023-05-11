@@ -11,6 +11,7 @@
         <extensionElements>
             <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
                 <output bomType="java.lang.String" collection="false" name="grupa_taryfowa"/>
+                <rule defaultRule="true" href="node_0/default-value-setting.drl" kind="BusinessRule" name="default-value-setting"/>
             </initialization>
         </extensionElements>
         <variable id="node_0_ii" name="grupa_taryfowa" typeRef="java.lang.String"/>
@@ -19,7 +20,7 @@
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.String" collection="false" name="grupa_taryfowa"/>
-                <input bomType="ilog.rules.brl.SimpleDate" collection="false" name="data"/>
+                <input bomType="java.lang.Long" collection="false" name="data"/>
                 <output bomType="java.lang.String" collection="false" name="NowyCennik"/>
                 <rule defaultRule="false" href="node_2/Cennik2023.dmt" kind="DecisionTable" name="Cennik2023"/>
             </ruleset>
@@ -35,10 +36,11 @@
     <inputData id="node_4" name="data">
         <extensionElements>
             <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
-                <output bomType="ilog.rules.brl.SimpleDate" collection="false" name="data"/>
+                <output bomType="java.lang.Long" collection="false" name="data"/>
+                <rule defaultRule="true" href="node_4/default-value-setting.drl" kind="BusinessRule" name="default-value-setting"/>
             </initialization>
         </extensionElements>
-        <variable id="node_4_ii" name="data" typeRef="ilog.rules.brl.SimpleDate"/>
+        <variable id="node_4_ii" name="data" typeRef="java.lang.Long"/>
     </inputData>
 </definitions>
 </definition>
