@@ -1,0 +1,10 @@
+{
+  "description" : "",
+  "groupId" : "jbmatu574.gskurswaluty.flow_test",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}

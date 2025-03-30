@@ -4,8 +4,5 @@
   <uuid>ee5b0ca5-b9a5-4f36-a1a2-33544a71f778</uuid>
   <locale>en_US</locale>
   <definition><![CDATA[if GrupaKrwi is not null 
-  then set decision to "Twój dawca jest  " + GrupaKrwi ;
-
-
-	]]></definition>
+  then set decision to "Twój dawca jest  " + GrupaKrwi ;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>

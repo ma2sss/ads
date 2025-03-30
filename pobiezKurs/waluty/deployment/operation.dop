@@ -4,4 +4,13 @@
   <uuid>34b9d9db-da33-40c5-be68-73f5c2921bf5</uuid>
   <decisionModel href="../rules/decisionModel.dmo#68e1ae12-d46e-46e3-8a00-bda96c68d0cc"/>
   <targetRuleProject href="../../waluty#0f7bb06d-8a3a-4219-a940-8f879ad8161d"/>
+  <tags key="operationDescription">
+    <value><![CDATA[""]]></value>
+  </tags>
+  <tags key="operationName">
+    <value><![CDATA["waluty"]]></value>
+  </tags>
+  <tags key="exposedAtRuntime">
+    <value><![CDATA[true]]></value>
+  </tags>
 </com.ibm.rules.studio.model.decisionservice:Operation>

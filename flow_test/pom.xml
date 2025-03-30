@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>jbmatu619.test_ads.enop_taryfa</groupId>
-    <artifactId>energetyka_Taryfa</artifactId>
+    <groupId>jbmatu574.gskurswaluty.flow_test</groupId>
+    <artifactId>flow_Test</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <name>Energetyka_taryfa</name>
+    <name>flow_test</name>
 
     <packaging>pom</packaging>
 
@@ -24,7 +24,6 @@
         <maven.build.timestamp.format>yyyy-MM-dd'T'HH:mm:ss'Z'</maven.build.timestamp.format>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
-        <ml-integration-runtime.version>36.0.14</ml-integration-runtime.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -64,8 +63,8 @@
         </dependencies>
     </dependencyManagement>
     <modules>
+        <module>test_task</module>
         <module>.decisionservice</module>
-        <module>tabelaOpłat</module>
     </modules>
 
     <build>

@@ -2,23 +2,18 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-        <artifactId>jakaGrupaKrwiPasuje</artifactId>
+        <groupId>jbmatu574.gskurswaluty.decyzja_jm</groupId>
+        <artifactId>decyzja_Jm</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>jakaGrupaKrwiPasujeDecisionService</artifactId>
+    <artifactId>decyzja_JmDecisionService</artifactId>
     <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
-            <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-            <artifactId>ADS_Grupa_Krwi</artifactId>
-            <version>LATEST-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-            <artifactId>model_Zdaniowy</artifactId>
+            <groupId>jbmatu574.gskurswaluty.decyzja_jm</groupId>
+            <artifactId>decyzja</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
         <dependency>
@@ -75,18 +70,6 @@
         </profile>
     </profiles>
 
-
-
-
-
-
-
-
-
-
-
-
-
 <build>
         <resources>
             <resource>
@@ -112,17 +95,8 @@
                         <configuration>
                             <artifactItems>
                                 <artifactItem>
-                                    <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-                                    <artifactId>ADS_Grupa_Krwi</artifactId>
-                                    <version>LATEST-SNAPSHOT</version>
-                                    <type>jar</type>
-                                    <overWrite>false</overWrite>
-                                    <includes>**/*.class</includes>
-                                    <outputDirectory>${project.build.directory}/classes</outputDirectory>
-                                </artifactItem>
-                                <artifactItem>
-                                    <groupId>jbmatu619.test_ads.jaka_grupa_krwi_pasuje</groupId>
-                                    <artifactId>model_Zdaniowy</artifactId>
+                                    <groupId>jbmatu574.gskurswaluty.decyzja_jm</groupId>
+                                    <artifactId>decyzja</artifactId>
                                     <version>LATEST-SNAPSHOT</version>
                                     <type>jar</type>
                                     <overWrite>false</overWrite>
