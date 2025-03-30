@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionservice:Operation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" rulesetName="operation" targetRuleProjectName="waluty">
+  <name>waluty</name>
+  <uuid>34b9d9db-da33-40c5-be68-73f5c2921bf5</uuid>
+  <decisionModel href="../rules/decisionModel.dmo#68e1ae12-d46e-46e3-8a00-bda96c68d0cc"/>
+  <targetRuleProject href="../../waluty#0f7bb06d-8a3a-4219-a940-8f879ad8161d"/>
+</com.ibm.rules.studio.model.decisionservice:Operation>
