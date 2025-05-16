@@ -35,7 +35,7 @@
                 <Condition>
                     <Expression>
                         <Param><![CDATA[-10]]></Param>
-                        <Param><![CDATA[0]]></Param>
+                        <Param><![CDATA[1]]></Param>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">

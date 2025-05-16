@@ -43,7 +43,7 @@
                 <Condition>
                     <Expression>
                         <Param><![CDATA[7]]></Param>
-                        <Param><![CDATA[8]]></Param>
+                        <Param><![CDATA[9]]></Param>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -56,7 +56,7 @@
                 <Condition>
                     <Expression>
                         <Param><![CDATA[4]]></Param>
-                        <Param><![CDATA[6]]></Param>
+                        <Param><![CDATA[7]]></Param>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -69,7 +69,7 @@
                 <Condition>
                     <Expression>
                         <Param><![CDATA[2]]></Param>
-                        <Param><![CDATA[3]]></Param>
+                        <Param><![CDATA[4]]></Param>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -82,7 +82,7 @@
                 <Condition>
                     <Expression>
                         <Param><![CDATA[0]]></Param>
-                        <Param><![CDATA[1]]></Param>
+                        <Param><![CDATA[2]]></Param>
                     </Expression>
                     <ActionSet>
                         <Action DefId="A0">
@@ -94,51 +94,31 @@
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
             </Partition>
         </Contents>
     </Body>
     <Resources DefaultLocale="en_US">
         <ResourceSet Locale="en_US">
-            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Decision 6]]></Data>
             <Data Name="Definitions(C0)#HeaderText"><![CDATA[StopienZadowolenia]]></Data>
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Decision 6]]></Data>
         </ResourceSet>
     </Resources>
 </DT>
