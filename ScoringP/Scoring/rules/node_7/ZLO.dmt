@@ -76,10 +76,14 @@
                     </ActionSet>
                 </Condition>
                 <Condition>
-                    <Expression/>
+                    <Expression>
+                        <Param><![CDATA["srednia"]]></Param>
+                    </Expression>
                     <ActionSet>
                         <Action DefId="A0">
-                            <Expression/>
+                            <Expression>
+                                <Param><![CDATA[5]]></Param>
+                            </Expression>
                         </Action>
                     </ActionSet>
                 </Condition>
@@ -87,49 +91,35 @@
                     <Expression/>
                     <ActionSet>
                         <Action DefId="A0">
-                            <Expression/>
+                            <Expression>
+                                <Param><![CDATA[0.5]]></Param>
+                            </Expression>
                         </Action>
                     </ActionSet>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
                 <Condition>
                     <Expression/>
-                    <ActionSet>
-                        <Action DefId="A0">
-                            <Expression/>
-                        </Action>
-                    </ActionSet>
+                    <ActionSet/>
                 </Condition>
             </Partition>
         </Contents>
     </Body>
     <Resources DefaultLocale="en_US">
         <ResourceSet Locale="en_US">
-            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Decision 7]]></Data>
             <Data Name="Definitions(C0)#HeaderText"><![CDATA[Zlozonosc]]></Data>
+            <Data Name="Definitions(A0)#HeaderText"><![CDATA[Decision 7]]></Data>
         </ResourceSet>
     </Resources>
 </DT>

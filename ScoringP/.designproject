@@ -3,7 +3,7 @@
   "groupId" : "cpadmin.test.scoringp",
   "locale" : "en_US",
   "properties" : {
-    "refactoringEnabled" : false,
+    "refactoringEnabled" : true,
     "tags" : [ ]
   },
   "extraProperties" : { }
