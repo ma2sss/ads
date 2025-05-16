@@ -129,7 +129,7 @@
             <requiredInput href="#node_3"/>
         </informationRequirement>
     </decision>
-    <decision id="node_9" name="fScoring">
+    <decision id="node_9" name="fScoringResult">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="dWProj"/>
@@ -137,11 +137,11 @@
                 <input bomType="java.lang.Double" collection="false" name="dZLO"/>
                 <input bomType="java.lang.Double" collection="false" name="dSTR"/>
                 <input bomType="java.lang.Double" collection="false" name="dOpoz"/>
-                <output bomType="java.lang.Double" collection="false" name="fScoring"/>
+                <output bomType="java.lang.Double" collection="false" name="fScoringResult"/>
                 <rule defaultRule="false" href="node_9/MNO.drl" kind="BusinessRule" name="MNO"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_9_ii" name="fScoring" typeRef="java.lang.Double"/>
+        <variable id="node_9_ii" name="fScoringResult" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#node_1"/>
         </informationRequirement>
