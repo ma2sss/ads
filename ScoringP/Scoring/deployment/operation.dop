@@ -5,7 +5,7 @@
   <decisionModel href="../rules/decisionModel.dmo#89f8be1c-f631-4102-b3be-1ced42df832d"/>
   <targetRuleProject href="../../Scoring#f597df36-d815-48d8-99dd-a978c3c1b2ae"/>
   <tags key="operationDescription">
-    <value><![CDATA[""]]></value>
+    <value><![CDATA["kkkk"]]></value>
   </tags>
   <tags key="operationName">
     <value><![CDATA["Scoring"]]></value>
