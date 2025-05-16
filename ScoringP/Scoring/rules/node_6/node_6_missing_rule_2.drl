@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>node_6_missing_rule_2</name>
+  <uuid>7d401de8-4e65-472b-b6ea-6bd88cec32b6</uuid>
+  <documentation><![CDATA[Suggested missing rule: The decision needs to be reviewed.]]></documentation>
+  <active>false</active>
+  <locale>en_US</locale>
+  <definition><![CDATA[if
+	StopienZadowolenia is less than 9 
+	and StopienZadowolenia is at least 8 
+then
+	-- This is a generated rule. Choose a meaningful value for the decision variable.
+	set decision to 0 ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

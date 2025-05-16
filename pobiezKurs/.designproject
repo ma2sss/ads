@@ -1,0 +1,10 @@
+{
+  "description" : "",
+  "groupId" : "jbmatu574.gskurswaluty.pobiezkurs",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}

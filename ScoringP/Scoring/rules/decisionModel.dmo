@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.ibm.rules.studio.model.decisionmodel:DecisionModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionmodel="http://com.ibm.rules.studio/model/decisionmodel.ecore">
+  <name>decisionModel</name>
+  <uuid>89f8be1c-f631-4102-b3be-1ced42df832d</uuid>
+  <locale>en_US</locale>
+  <definition><definitions xmlns="http://www.omg.org/spec/DMN/20180521/MODEL/" id="decisions" name="diagram" namespace="">
+    <extensionElements>
+        <locale xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" id="en_US"/>
+    </extensionElements>
+    <inputData id="node_0" name="Opoznienie">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.String" collection="false" name="Opoznienie"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_0_ii" name="Opoznienie" typeRef="java.lang.String"/>
+    </inputData>
+    <decision id="node_1" name="dDEC">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.Double" collection="false" name="WartoscProjektu"/>
+                <output bomType="java.lang.Double" collection="false" name="dDEC"/>
+                <rule defaultRule="false" href="node_1/WART.dmt" kind="DecisionTable" name="WART"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_1_ii" name="dDEC" typeRef="java.lang.Double"/>
+        <informationRequirement>
+            <requiredInput href="#node_4"/>
+        </informationRequirement>
+    </decision>
+    <inputData id="node_2" name="Zlozonosc">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.String" collection="false" name="Zlozonosc"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_2_ii" name="Zlozonosc" typeRef="java.lang.String"/>
+    </inputData>
+    <inputData id="node_3" name="ZgodnoscStrategii">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="ZgodnoscStrategii"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_3_ii" name="ZgodnoscStrategii" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_4" name="WartoscProjektu">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="WartoscProjektu"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_4_ii" name="WartoscProjektu" typeRef="java.lang.Double"/>
+    </inputData>
+    <inputData id="node_5" name="StopienZadowolenia">
+        <extensionElements>
+            <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
+                <output bomType="java.lang.Double" collection="false" name="StopienZadowolenia"/>
+            </initialization>
+        </extensionElements>
+        <variable id="node_5_ii" name="StopienZadowolenia" typeRef="java.lang.Double"/>
+    </inputData>
+    <decision id="node_6" name="STZAD">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+                <input bomType="java.lang.String" collection="false" name="Opoznienie"/>
+                <input bomType="java.lang.Double" collection="false" name="StopienZadowolenia"/>
+                <output bomType="java.lang.Double" collection="false" name="STZAD"/>
+                <rule defaultRule="false" href="node_6/node_6_missing_rule_5.drl" kind="BusinessRule" name="node_6_missing_rule_5">
+                    <properties>
+                        <property name="source"><![CDATA[missing rule]]></property>
+                    </properties>
+                </rule>
+                <rule defaultRule="false" href="node_6/node_6_missing_rule_4.drl" kind="BusinessRule" name="node_6_missing_rule_4">
+                    <properties>
+                        <property name="source"><![CDATA[missing rule]]></property>
+                    </properties>
+                </rule>
+                <rule defaultRule="false" href="node_6/node_6_missing_rule_6.drl" kind="BusinessRule" name="node_6_missing_rule_6">
+                    <properties>
+                        <property name="source"><![CDATA[missing rule]]></property>
+                    </properties>
+                </rule>
+                <rule defaultRule="false" href="node_6/node_6_missing_rule_2.drl" kind="BusinessRule" name="node_6_missing_rule_2">
+                    <properties>
+                        <property name="source"><![CDATA[missing rule]]></property>
+                    </properties>
+                </rule>
+                <rule defaultRule="false" href="node_6/node_6_missing_rule_3.drl" kind="BusinessRule" name="node_6_missing_rule_3">
+                    <properties>
+                        <property name="source"><![CDATA[missing rule]]></property>
+                    </properties>
+                </rule>
+                <rule defaultRule="false" href="node_6/node_6_missing_rule_1.drl" kind="BusinessRule" name="node_6_missing_rule_1">
+                    <properties>
+                        <property name="source"><![CDATA[missing rule]]></property>
+                    </properties>
+                </rule>
+                <rule defaultRule="false" href="node_6/StZad.dmt" kind="DecisionTable" name="StZad"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_6_ii" name="STZAD" typeRef="java.lang.Double"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_5"/>
+        </informationRequirement>
+    </decision>
+    <decision id="node_7" name="dZLO">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+                <input bomType="java.lang.String" collection="false" name="Zlozonosc"/>
+                <output bomType="java.lang.Double" collection="false" name="dZLO"/>
+                <rule defaultRule="false" href="node_7/ZLO.dmt" kind="DecisionTable" name="ZLO"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_7_ii" name="dZLO" typeRef="java.lang.Double"/>
+        <informationRequirement>
+            <requiredInput href="#node_2"/>
+        </informationRequirement>
+    </decision>
+    <decision id="node_8" name="Decision 8">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.Double" collection="false" name="ZgodnoscStrategii"/>
+                <output bomType="java.lang.String" collection="false" name="Decision 8"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_8_ii" name="Decision 8" typeRef="java.lang.String"/>
+        <informationRequirement>
+            <requiredInput href="#node_3"/>
+        </informationRequirement>
+    </decision>
+    <decision id="node_9" name="dMUL">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
+                <input bomType="java.lang.Double" collection="false" name="dDEC"/>
+                <input bomType="java.lang.Double" collection="false" name="dZLO"/>
+                <output bomType="java.lang.Double" collection="false" name="dMUL"/>
+                <rule defaultRule="false" href="node_9/MNO.drl" kind="BusinessRule" name="MNO"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_9_ii" name="dMUL" typeRef="java.lang.Double"/>
+        <informationRequirement>
+            <requiredInput href="#node_1"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_7"/>
+        </informationRequirement>
+    </decision>
+</definitions>
+</definition>
+</com.ibm.rules.studio.model.decisionmodel:DecisionModel>
