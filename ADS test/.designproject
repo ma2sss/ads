@@ -1,0 +1,10 @@
+{
+  "description" : "",
+  "groupId" : "cpadmin.test.ads_test",
+  "locale" : "en_US",
+  "properties" : {
+    "refactoringEnabled" : false,
+    "tags" : [ ]
+  },
+  "extraProperties" : { }
+}
