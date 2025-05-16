@@ -10,20 +10,20 @@
     <inputData id="node_0" name="Opoznienie">
         <extensionElements>
             <initialization xmlns="http://www.ibm.com/spec/ODM/dmn.xsd">
-                <output bomType="java.lang.String" collection="false" name="Opoznienie"/>
+                <output bomType="java.lang.Long" collection="false" name="Opoznienie"/>
             </initialization>
         </extensionElements>
-        <variable id="node_0_ii" name="Opoznienie" typeRef="java.lang.String"/>
+        <variable id="node_0_ii" name="Opoznienie" typeRef="java.lang.Long"/>
     </inputData>
-    <decision id="node_1" name="dDEC">
+    <decision id="node_1" name="dWProj">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="WartoscProjektu"/>
-                <output bomType="java.lang.Double" collection="false" name="dDEC"/>
+                <output bomType="java.lang.Double" collection="false" name="dWProj"/>
                 <rule defaultRule="false" href="node_1/WART.dmt" kind="DecisionTable" name="WART"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_1_ii" name="dDEC" typeRef="java.lang.Double"/>
+        <variable id="node_1_ii" name="dWProj" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#node_4"/>
         </informationRequirement>
@@ -60,12 +60,11 @@
         </extensionElements>
         <variable id="node_5_ii" name="StopienZadowolenia" typeRef="java.lang.Double"/>
     </inputData>
-    <decision id="node_6" name="STZAD">
+    <decision id="node_6" name="dSTZAD">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
-                <input bomType="java.lang.String" collection="false" name="Opoznienie"/>
                 <input bomType="java.lang.Double" collection="false" name="StopienZadowolenia"/>
-                <output bomType="java.lang.Double" collection="false" name="STZAD"/>
+                <output bomType="java.lang.Double" collection="false" name="dSTZAD"/>
                 <rule defaultRule="false" href="node_6/node_6_missing_rule_5.drl" kind="BusinessRule" name="node_6_missing_rule_5">
                     <properties>
                         <property name="source"><![CDATA[missing rule]]></property>
@@ -99,10 +98,7 @@
                 <rule defaultRule="false" href="node_6/StZad.dmt" kind="DecisionTable" name="StZad"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_6_ii" name="STZAD" typeRef="java.lang.Double"/>
-        <informationRequirement>
-            <requiredInput href="#node_0"/>
-        </informationRequirement>
+        <variable id="node_6_ii" name="dSTZAD" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#node_5"/>
         </informationRequirement>
@@ -120,33 +116,59 @@
             <requiredInput href="#node_2"/>
         </informationRequirement>
     </decision>
-    <decision id="node_8" name="Decision 8">
+    <decision id="node_8" name="dSTR">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
                 <input bomType="java.lang.Double" collection="false" name="ZgodnoscStrategii"/>
-                <output bomType="java.lang.String" collection="false" name="Decision 8"/>
+                <output bomType="java.lang.Double" collection="false" name="dSTR"/>
+                <rule defaultRule="false" href="node_8/ZGOD.drl" kind="BusinessRule" name="ZGOD"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_8_ii" name="Decision 8" typeRef="java.lang.String"/>
+        <variable id="node_8_ii" name="dSTR" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#node_3"/>
         </informationRequirement>
     </decision>
-    <decision id="node_9" name="dMUL">
+    <decision id="node_9" name="fScoring">
         <extensionElements>
             <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="sequence">
-                <input bomType="java.lang.Double" collection="false" name="dDEC"/>
+                <input bomType="java.lang.Double" collection="false" name="dWProj"/>
+                <input bomType="java.lang.Double" collection="false" name="dSTZAD"/>
                 <input bomType="java.lang.Double" collection="false" name="dZLO"/>
-                <output bomType="java.lang.Double" collection="false" name="dMUL"/>
+                <input bomType="java.lang.Double" collection="false" name="dSTR"/>
+                <input bomType="java.lang.Double" collection="false" name="dOpoz"/>
+                <output bomType="java.lang.Double" collection="false" name="fScoring"/>
                 <rule defaultRule="false" href="node_9/MNO.drl" kind="BusinessRule" name="MNO"/>
             </ruleset>
         </extensionElements>
-        <variable id="node_9_ii" name="dMUL" typeRef="java.lang.Double"/>
+        <variable id="node_9_ii" name="fScoring" typeRef="java.lang.Double"/>
         <informationRequirement>
             <requiredInput href="#node_1"/>
         </informationRequirement>
         <informationRequirement>
+            <requiredInput href="#node_6"/>
+        </informationRequirement>
+        <informationRequirement>
             <requiredInput href="#node_7"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_8"/>
+        </informationRequirement>
+        <informationRequirement>
+            <requiredInput href="#node_10"/>
+        </informationRequirement>
+    </decision>
+    <decision id="node_10" name="dOpoz">
+        <extensionElements>
+            <ruleset xmlns="http://www.ibm.com/spec/ODM/dmn.xsd" conflictResolution="first">
+                <input bomType="java.lang.Long" collection="false" name="Opoznienie"/>
+                <output bomType="java.lang.Double" collection="false" name="dOpoz"/>
+                <rule defaultRule="false" href="node_10/date.dmt" kind="DecisionTable" name="date"/>
+            </ruleset>
+        </extensionElements>
+        <variable id="node_10_ii" name="dOpoz" typeRef="java.lang.Double"/>
+        <informationRequirement>
+            <requiredInput href="#node_0"/>
         </informationRequirement>
     </decision>
 </definitions>

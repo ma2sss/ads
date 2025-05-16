@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
-  <name>MNO</name>
-  <uuid>e058e2f9-95df-40cf-a7d3-9ec713cfafed</uuid>
-  <documentation><![CDATA[aa]]></documentation>
+  <name>ZGOD</name>
+  <uuid>5d06e7d7-9fe9-480a-9b42-31984472545a</uuid>
   <locale>en_US</locale>
-  <definition><![CDATA[set decision to  (dZLO + dWProj + dSTZAD + dSTR + dOpoz) / 5;
-]]></definition>
+  <definition><![CDATA[if
+	ZgodnoscStrategii is more than 5
+then
+	set decision to 1 ;
+else set decision to 0.5;]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
