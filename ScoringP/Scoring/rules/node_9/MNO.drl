@@ -4,6 +4,6 @@
   <uuid>e058e2f9-95df-40cf-a7d3-9ec713cfafed</uuid>
   <documentation><![CDATA[aa]]></documentation>
   <locale>en_US</locale>
-  <definition><![CDATA[set decision to  (dZLO + dWProj + dSTZAD + dSTR + dOpoz) / 5;
+  <definition><![CDATA[set decision to  ((dZLO + dWProj + dSTZAD + dSTR + dOpoz) / 5) * 100;
 ]]></definition>
 </ilog.rules.studio.model.brl:ActionRule>
